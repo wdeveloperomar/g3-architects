@@ -181,11 +181,94 @@ nav ul li a {
     color: #FF900E;
     font-size: 45px;
     font-weight: 700;
+
 }
 
 .teams-description-container p {
     margin: 0 61px 32px 0;
 }
+
+
+/* ----------------features-section-styles------------ */
+.features-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+
+}
+
+.features-description-container {
+    width: 40%;
+    padding-top: 40px;
+}
+
+.features-description-container h2 {
+    margin: 0 92px 24px 0;
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+}
+
+.features-description-container p {
+    margin-bottom: 30px;
+}
+
+.feature-cards {
+    padding: 30px 42px 30px 30px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px #0000000f;
+    margin-bottom: 20px;
+}
+
+.feature-card-title {
+    color: #131313;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.feature-cards P {
+    margin: 0;
+}
+
+
+.features-container-img {
+    width: calc(60% - 146px);
+}
+
+.features-container-img img {
+    width: 100%;
+}
+
+.ten-year-batch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 342px;
+    height: 200px;
+    border-radius: 8px;
+    background: #FF900E;
+    position: relative;
+    bottom: 123px;
+    left: -92px;
+
+}
+
+.ten-year-batch h3 {
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.ten-year-batch p {
+    color: #FFF;
+    font-size: 1.563rem;
+    font-weight: 500;
+    line-height: 40px;
+}
+
 
 
 
