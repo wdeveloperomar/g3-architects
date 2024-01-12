@@ -2,7 +2,7 @@
 
 @media screen and (max-width: 1040px) {
     
-    /* ---------nav-responsive-style------- */
+   
     .nav-menu {
         display: none;
     }
@@ -11,7 +11,7 @@
         display: block;
     }
 
-    /* ------team-container-responsive-style--------- */
+    
     .teams-container {
         flex-direction: column-reverse;
         margin-top: 50px;
@@ -37,7 +37,7 @@
     margin: 0 0 20px 0;
     }
 
-    /* ----------features-container-responsive-styles------ */
+
 
     .features-container {
         flex-direction: column-reverse;
@@ -69,11 +69,11 @@
 
 }
 
-/* ------776px screen styles------- */
+
 
 @media screen and (max-width: 768px) {
     
-/* -----nav-responsive-style---- */
+
     nav {
         padding: 30px;
     }
@@ -101,7 +101,16 @@
     .facts-cards-container {
         margin: 50px 0 0 0;
 
+    }
 
+    .sponsor-container {
+        margin-top: 80px;
+    }
+
+    .footer {
+        margin-top: 70px;
+        margin-bottom: 50px;
+    }
 }
 
 

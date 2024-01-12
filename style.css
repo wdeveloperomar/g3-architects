@@ -278,6 +278,7 @@ nav ul li a {
     margin: 100px 0 0 0;
     display: flex;
     justify-content: space-evenly;
+    gap: 50px;
     align-items: center;
     flex-wrap: wrap;
     text-align: center;
@@ -287,7 +288,6 @@ nav ul li a {
     width: 241.831px;
     height: 241.831px;
     padding: 60px 0 0 0;
-    margin-bottom: 30px;
     border-radius: 8px;
     border: 1px solid #FF900E;
 }
@@ -305,6 +305,50 @@ nav ul li a {
     font-size: 1.25rem;
     font-weight: 600;
 }
+
+/* ---------sponsor-section-style------- */
+.sponsor-container {
+    margin-top: 180px;
+    text-align: center;
+}
+
+.sponsor-container h2 {
+    margin-bottom: 24px;
+}
+
+.sponsor-container p {
+    margin-bottom: 50px;
+}
+
+.sponsor-logo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+/* ---------------footer-styles------------ */
+
+.footer {
+    margin-top: 170px;
+    margin-bottom: 100px;
+    border-radius: 8px;
+    background: #FFF4E7;
+    text-align: center;
+    color: #424242;
+    font-size: 20px;
+    padding: 40px 0;
+
+}
+
+
+    
+
+
+
+
+
 
 
 
