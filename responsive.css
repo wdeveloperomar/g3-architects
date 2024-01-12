@@ -8,14 +8,38 @@
     .responsive-menu {
         display: block;
     }
+
+    .teams-container {
+        flex-direction: column-reverse;
+        margin-top: 50px;
+        
+    }
+
+    .teams-img-container {
+        width: 100%;
+    }
+
+    .teams-description-container {
+        width: 100%;
+        margin: 30px 0 50px 0;
+        text-align: center;
+        
+    }
+
+    .teams-description-container h2 {
+        margin: 0 0 20px 0;
+    }
+
+    .teams-description-container p {
+    margin: 0 0 20px 0;
+    }
+
 }
 
 /* ------776px screen styles------- */
 
 @media screen and (max-width: 768px) {
-    .container {
-        /* margin: 0 30px; */
-    }
+    
 
     nav {
         padding: 30px;
@@ -41,6 +65,13 @@
 @media screen and (max-width: 576px) {
     .banner-img {
         margin: 35px 0 20px 0;
+    }
+
+
+    .teams-img-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 24px;
     }
 }
 

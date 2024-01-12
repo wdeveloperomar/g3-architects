@@ -34,6 +34,12 @@ body {
    display: none;
 }
 
+.section-title {
+    color:  #131313;
+    font-size: 2.813rem;
+    font-weight: 700;
+}
+
 .description {
     color: #727272;
     font-size: 16px;
@@ -122,6 +128,66 @@ nav ul li a {
 .banner-img img {
     width: 100%;
 }
+
+
+/* --------teams-section-styles------ */
+
+.teams-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 85px;
+}
+
+.teams-img-container {
+    width: calc(50% - 35px);
+
+}
+
+.teams-img-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 24px;
+}
+
+.teams-img-container img {
+    width: 100%;
+    transition: 0.5s;
+}
+
+.teams-img-container img:hover {
+    transform: scale(1.01);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.233);
+    border-radius: 8px;
+}
+
+
+
+.teams-description-container {
+    width: calc(50% - 35px);
+}
+
+.teams-description-container h2 {
+    margin: 0 127px 24px 0;
+}
+
+.gray-quick-list {
+    color: #727272;
+    font-weight: 500;
+}
+
+.features-orange {
+    color: #FF900E;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.teams-description-container p {
+    margin: 0 61px 32px 0;
+}
+
+
 
 
 
