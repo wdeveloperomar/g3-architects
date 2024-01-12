@@ -1,0 +1,11 @@
+/* ------992px screen styles------ */
+
+@media screen and (max-width: 992px) {
+    .nav-menu {
+        display: none;
+    }
+
+    .responsive-menu {
+        display: block;
+    }
+}
