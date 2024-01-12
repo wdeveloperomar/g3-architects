@@ -9,3 +9,40 @@
         display: block;
     }
 }
+
+/* ------776px screen styles------- */
+
+@media screen and (max-width: 768px) {
+    .container {
+        /* margin: 0 30px; */
+    }
+
+    nav {
+        padding: 30px;
+    }
+
+    nav h3 {
+        font-size: 2rem;
+    }
+
+    .header-banner {
+        margin-top: 30px;
+    }
+
+    .banner-title span {
+        font-size: 3rem;
+    }
+
+
+}
+
+
+/* ----------------576px screen styles------------- */
+@media screen and (max-width: 576px) {
+    .banner-img {
+        margin: 35px 0 20px 0;
+    }
+}
+
+
+

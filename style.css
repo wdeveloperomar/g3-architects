@@ -34,15 +34,32 @@ body {
    display: none;
 }
 
+.description {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px
+}
+
+.primary-button {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21px 24px 20px 25px;
+    border-radius: 8px;
+    background: #FF900E;
+    border: 0;
+   cursor: pointer;
+}
+
 /* ------------------header styles----------- */
 
 #header {
     width: 100vw;
-    height: 100vh;
     background: #ff900e1a;
 }
 
-
+/* ------------nav-styles--------- */
 
 nav {
     display: flex;
@@ -75,6 +92,46 @@ nav ul li a {
     font-size: 1.125rem;
     font-weight: 500;
 }
+
+/* -------------------header-banner-styles------------ */
+
+
+.header-banner {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.banner-title span {
+    display: block;
+    color: #131313;
+    font-size:4rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.header-banner p {
+    margin: 32px 0;
+}
+
+.banner-img {
+    width: 75vw;
+    margin: 70px 0 45px 0;
+
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
